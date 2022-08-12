@@ -14,9 +14,9 @@ import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 import { appReducers } from '../store/app.reducers';
-import { environment } from '_src/environments/environment';
 import { EffectsModule } from '@ngrx/effects';
 import { EffectsArray } from '../store/effects/index';
+import { environment } from 'src/environments/environment';
 
 @NgModule({
   declarations: [AppComponent],
